@@ -9,7 +9,6 @@ board.on("ready", function() {
   var button = new five.Button(2);
 
  firebase.initializeApp({
-  serviceAccount: //need auth token
   databaseURL: "https://button-81956.firebaseio.com/"
 });
 
